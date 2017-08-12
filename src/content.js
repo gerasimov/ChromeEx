@@ -10,7 +10,7 @@ import { triggerCustomEvent, bindCustomEvent } from "./helpers";
 import Channel from "./channel";
 import Deferred from "./deferred";
 
-const disconnected = false;
+let disconnected = false;
 
 /**
  * @class Content

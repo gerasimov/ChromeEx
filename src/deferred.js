@@ -8,7 +8,7 @@ export default class Deferred {
      * @param {Boolean} idRequired
      * @constructor
      */
-  constructor(idRequired = false) {
+  constructor() {
     this.promise = new Promise((resolve, reject) => {
       this.resolve = (...args) => {
         resolve(...args);
