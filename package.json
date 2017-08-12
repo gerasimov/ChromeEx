@@ -1,0 +1,8 @@
+{
+  "name": "chrome-ex",
+  "author": "Ruslan Gerasimov <flegent@hotmail.com>",
+  "version": "1.0.0",
+  "description": "Channels for chromium extensions",
+  "main": "./src/index.js",
+  "license": "ISC"
+}
