@@ -52,7 +52,7 @@ Deferred.runByType = function runByType(deferredCaller, data) {
      * @return {boolean}
      */
 Deferred.removeById = function removeById(id) {
-  instances.splice(id, 1);
+  delete instances[id];
 };
 
 /**
