@@ -1,12 +1,14 @@
 {
   "name": "chrome-ex",
   "author": "Ruslan Gerasimov <flegent@hotmail.com>",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/gerasimov/chrome-ex",
   "bugs": {
     "url": "https://github.com/gerasimov/chrome-ex/issues",
     "email": "flegent@hotmail.com"
   },
+  "keywords": ["chrome", "extensions", "chromium", "channels", "json-rpc"],
+  "tags": ["chrome", "extensions", "chromium", "channels", "json-rpc"],
   "description": "Channels for chromium extensions",
   "main": "./src/index.js",
   "license": "ISC"
